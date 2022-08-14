@@ -10,7 +10,14 @@ const About = () => {
               <hr />
           </div>
           <div className='inner'>
+                      <p>Self-motivated energetic individual capable of innovative thinking in a team environment with an analytical mind, problem-solving aptitude, and the ability to juggle multiple projects at one time.</p>
               <p>Self-motivated energetic individual capable of innovative thinking in a team environment with an analytical mind, problem-solving aptitude, and the ability to juggle multiple projects at one time.</p>
+                      
+              <p>Self-motivated energetic individual capable of innovative thinking in a team environment with an analytical mind, problem-solving aptitude, and the ability to juggle multiple projects at one time.</p>
+              <p>Self-motivated energetic individual capable of innovative thinking in a team environment with an analytical mind, problem-solving aptitude, and the ability to juggle multiple projects at one time.</p>
+
+              <p>Self-motivated energetic individual capable of innovative thinking in a team environment with an analytical mind, problem-solving aptitude, and the ability to juggle multiple projects at one time.</p>
+                      
                   </div>
                   <div className='skills'>
                       <p>Some of the technologies I use include;</p>
