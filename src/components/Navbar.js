@@ -8,7 +8,7 @@ const Navbar = () => {
             <i class="fas fa-bars"></i>
         </div>
         <div class="overlay"></div>
-        <div class="container">
+        <div class="container-fluid">
             <nav class="">
                 <div class='brand'><a href="/"><img src="https://cdn-icons-png.flaticon.com/128/5243/5243360.png" alt="" width={'45px'}></img></a></div>
                 <ul>

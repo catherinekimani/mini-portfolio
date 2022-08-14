@@ -3,7 +3,7 @@ a{
   color:rgb(211, 209, 209);
 }
 
-.container{
+.container-fluid{
 	max-width: 120rem;
 	width: 90%;
 	margin: 0 auto;
@@ -165,6 +165,49 @@ nav ul li a:hover::after{
 }
 
 a:hover{
-    color: rgb(8, 249, 169);
+    color: #5deecd;
 
 }
+
+.container{
+  margin: 5%;
+}
+
+.container h5{
+    color: #5deecd;
+}
+
+.container h1{
+    color: #ccd6f6;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 88px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h4{
+  font-family: 'Times New Roman', Times, serif;
+    color: #8892b0;
+    font-size: 80px;
+    font-style: normal;
+}
+
+.container p {
+    margin: 20px 0 0;
+    max-width: 540px;
+    color: #8892b0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .email{
+    color: #5deecd;
+    background-color: rgb(0, 0, 11);
+    border: 2px #5deecd;
+    padding: 1rem 1rem;
+    border-radius: 2px solid #5deecd;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin: 7%;
+  }
