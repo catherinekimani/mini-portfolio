@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none;
+  color:rgb(211, 209, 209);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+	max-width: 120rem;
+	width: 90%;
+	margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span{
+  color: rgb(8, 249, 169);
+}
+.menu-toggle{
+	position: fixed;
+	top: 2.5rem;
+	right: 2.5rem;
+	color: #eeeeee;
+	font-size: 3rem;
+	cursor: pointer;
+	z-index: 1000;
+	display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav{
+	padding-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+.brand{
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: 300;
+	transform: translateX(-100rem);
+	animation: slideIn .5s forwards;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul{
+	display: flex;
+}
+nav ul li{
+	list-style: none;
+	transform: translateX(100rem);
+	animation: slideIn .5s forwards;
+}
+nav ul li:nth-child(1){
+	animation-delay: 0s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li:nth-child(2){
+	animation-delay: .5s;
+}
+
+nav ul li:nth-child(3){
+	animation-delay: 1s;
+}
+
+nav ul li:nth-child(4){
+	animation-delay: 1.5s;
+}
+
+nav ul li a{
+	padding: 1rem 0;
+	margin: 0 3rem;
+	position: relative;
+	letter-spacing: 2px;
+}
+
+nav ul li a:last-child{
+	margin-right: 0;
+}
+
+
+nav ul li a::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	left: 0;
+	transform: scaleX(0);
+	transition: all .5s;
+}
+
+nav ul li a::before{
+	top: 0;
+	transform-origin: left;
+}
+
+nav ul li a::after{
+	bottom: 0;
+	transform-origin: right;
+}
+
+.overlay{
+	background-color: rgba(24, 1, 1, 0.95);
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	transition: opacity 650ms;
+	transform: scale(0);
+	opacity: 0;
+    display: none;
+}
+
+nav ul li a:hover::before,
+nav ul li a:hover::after{
+	transform: scaleX(1);
+}
+
+@keyframes slideIn {
+	from{
+
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+
+@media screen and (max-width: 700px){
+
+	.menu-toggle{
+		display: block;
+	}
+
+	nav{
+		padding-top: 0;
+		display: none;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 100vh;
+		text-align: center;
+	}
+
+	nav ul{
+		flex-direction: column;
+	}
+
+	nav ul li{
+		margin-top: 5rem;
+	}
+
+	nav ul li a{
+		margin: 0;
+		font-size: 2.5rem;
+	}
+.brand{
+		font-size: 5rem;
+	}
+
+.overlay.menu-open,
+    nav.menu-open{
+	display: flex;
+	transform: scale(1);
+	opacity: 1;
+}
+
+}
+
+a:hover{
+    color: rgb(8, 249, 169);
+
 }
