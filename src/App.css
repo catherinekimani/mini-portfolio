@@ -217,7 +217,7 @@ a:hover {
 	margin: 7%;
 }
 
-#About {
+#About{
 	height: 70vh;
 	margin-top: 18%;
 	margin-left: 25%;
@@ -255,60 +255,79 @@ ul li {
 }
 
 .project-detail {
-    position: absolute;
-    height: 50px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-    overflow: hidden;
-    padding: 15px;
-    /* From https://css.glass */
-background: rgba(19, 2, 2, 0.18);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(19, 2, 2, 0.3);
-    transition: all 0.5s;
-    text-align: center;
-    box-sizing: border-box;
+	position: absolute;
+	height: 50px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	overflow: hidden;
+	padding: 15px;
+	/* From https://css.glass */
+	background: rgba(19, 2, 2, 0.18);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(19, 2, 2, 0.3);
+	transition: all 0.5s;
+	text-align: center;
+	box-sizing: border-box;
 }
 
 .card .project-detail h5 {
-    font-family: 'Oswald';
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 3px 0;
-    color: white;
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 3px 0;
+	color: white;
 
 }
 
 .card .project-detail {
-    font-weight: 400;
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-    color: white;
+	font-weight: 400;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
 }
 
 .card .project-detail blockquote {
-    padding: 0;
-    margin: 0;
-    font-style: italic;
-    font-size: 1em;
-    color: white;
+	padding: 0;
+	margin: 0;
+	font-style: italic;
+	font-size: 1em;
+	color: white;
 
 }
 
 .card:hover .project-detail {
-    height: calc(95%);
-    padding-top: 100px;
+	height: calc(95%);
+	padding-top: 100px;
 }
-.back i{
-    font-size: 3rem;
-    color: white;
-    margin-left: 8%;
+
+.back i {
+	font-size: 3rem;
+	color: white;
+	margin-left: 8%;
+}
+
+.title {
+	font-size: clamp(40px, 5vw, 60px);
+	margin-left: 30%;
+	color: #5deecd;
+}
+
+.p ,i{
+	font-family: 'Times New Roman', Times, serif;
+	margin-left: 30%;
+	color: #8892b0;
+}
+
+#contact {
+	height: 80vh;
+	margin-top: 18%;
+	margin-left: 25%;
 }
