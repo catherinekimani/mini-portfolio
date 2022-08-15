@@ -19,7 +19,7 @@ const Contact = () => {
       <p className='footer'>Made by Catherine Kimani <br />💕</p>
       <div class="up-arrow ">
             <div class="arrow ">
-                <a href="/"><i class="fa fa-angle-up "></i>
+                <a href="Home"><i class="fa fa-angle-up "></i>
             </a>
             </div>
         </div>
