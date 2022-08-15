@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
       <div id='portfolio'>
           <div className='d-flex align-items-center'>
-          <h2> <span>01.</span>Some Projects that I have worked on</h2>
+          <h2> <span>03.</span>Some Projects that I have worked on</h2>
               <hr />
           </div>
           <div class="row">
@@ -46,13 +46,13 @@ const Portfolio = () => {
               </div>
               <div class="col-lg-4 col-md-4 col-md-12">
                 <div class="card mb-3" style={{ width: '30rem' }}>
-        <img src="./images.jpeg" alt="" class="img-fluid" width="auto" height="380px%"></img>
+        <img src="./quotes.png" alt="" class="img-fluid" width="auto" height="380px%"></img>
                         <div class="project-detail">
-                            <h5 class="card-title heading text-center">Gallery Application</h5>
+                            <h5 class="card-title heading text-center">Quotes Application</h5>
                             <blockquote>
-                            <p>A Web Application that allows user(s) to view different images from various categories including Food,Drinks,Animals etc.</p>
+                            <p>A web application that allows users to create quotes, like and dislike quotes and also delete quotes.</p>
                             </blockquote>
-                        <a href="https://kate-gallery.herokuapp.com/" class="btn btn-primary btn-sm">View site</a>
+                        <a href="https://catherinekimani.github.io/quotes-application/" class="btn btn-primary btn-sm">View site</a>
                         </div>
                     </div>
                 </div>

@@ -245,7 +245,7 @@ h2 {
 }
 
 ul li {
-	color: #8892b0;
+	color: #ccd6f6;
 }
 
 #portfolio {
@@ -308,26 +308,35 @@ ul li {
 	padding-top: 100px;
 }
 
-.back i {
-	font-size: 3rem;
-	color: white;
-	margin-left: 8%;
-}
-
 .title {
 	font-size: clamp(40px, 5vw, 60px);
 	margin-left: 30%;
 	color: #5deecd;
 }
 
-.p ,i{
+.p {
 	font-family: 'Times New Roman', Times, serif;
 	margin-left: 30%;
 	color: #8892b0;
 }
 
-#contact {
-	height: 80vh;
+#contact,.reach {
 	margin-top: 18%;
 	margin-left: 25%;
+}
+.contact{
+	margin-top: 18%;
+	width: 100%;
+	height: 75vh;
+	/* From https://css.glass */
+	background: rgba(15, 14, 14, 0.28);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(15, 14, 14, 0.3);
+}
+.link,i{
+	margin-left: 5%;
+	font-size: 25px;
 }
