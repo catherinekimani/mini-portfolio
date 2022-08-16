@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    
+    <div id='Home'>
     <div className='row container mx-auto'>
       <div className='col-md-12'>
         <div className='container text-light'>
@@ -15,7 +15,7 @@ const Home = () => {
         <a href="mailto:catherinekimani882@gmail.com" className='email'>Contact me</a>
       </div>
       </div>
-      
+      </div>
   )
 }
 

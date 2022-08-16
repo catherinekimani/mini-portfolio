@@ -216,7 +216,9 @@ a:hover {
 	margin-top: 50px;
 	margin: 7%;
 }
-
+#Home{
+	height: 66vh;
+}
 #About{
 	height: 70vh;
 	margin-top: 18%;
