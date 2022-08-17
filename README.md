@@ -18,7 +18,6 @@
 A simple React Portfolio
 
 ## Live Link
-https://catherinekimani.github.io/mini-project/
 
 ## Installation
 
