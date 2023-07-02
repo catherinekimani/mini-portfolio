@@ -3,7 +3,6 @@
 #### By Catherine Kimani
 
 #### Home Page
-![catherine](./public/portfolio.png)
 
 ## Table of Content
 
