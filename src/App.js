@@ -1,27 +1,32 @@
-import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
-import Portfolio from './components/Portfolio';
+import { useContext } from 'react'
+import { ThemeContext } from './contexts/theme'
+import Header from './components/Header/Header'
+import About from './components/About/About'
+import Projects from './components/Projects/Projects'
+import Skills from './components/Skills/Skills'
+import Scroll from './components/Scroll/Scroll'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import './App.css'
 
-function App() {
+const App = () => {
+  const [{ themeName }] = useContext(ThemeContext)
+
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-      <>
+    <div id='top' className={`${themeName} app`}>
+      <Header />
+
+      <main>
         <About />
-      </>
-      <>
-        <Portfolio />
-      </>
-      <>
+        <Projects />
+        <Skills />
         <Contact />
-      </>
+      </main>
+
+      <Scroll />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
-
+export default App
