@@ -2,16 +2,8 @@
 
 #### By Catherine Kimani
 
-#### Home Page
-
 ## Table of Content
-
-+ [Description](#description)
-+ [Live Link](#live-link)
-+ [Installation Requirement](#Installation)
-+ [Technology Used](#technology-used)
-+ [Licence](#licence)
-+ [Authors Info](#author-Info)
+....
 
 # Description
 A simple React Portfolio
@@ -20,35 +12,35 @@ A simple React Portfolio
 
 ## Installation
 
-### Requirements
+## Requirements
 
-* Make sure you have access to a browser
+* Access to a modern web browser.
 
-* Make Sure you have access to internet
-
-### Installation Process
+* Internet connectivity
 
 [Go Back to the top](#mini-portfolio-project)
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
+* CSS - which was used to style the website
 
-* JavaScript 
+* JavaScript - for adding interactivity and functionality to the website
 
-* React
+* React -  for building the project as a single-page application
 
 ## Licence
 
 MIT License
 
-Copyright (c) [2022] [MIT License](LICENCE)
+Copyright (c) [2023] [MIT License](LICENCE)
 
 [Go Back to the top](#mini-portfolio-project)
 
 ## Authors Info
 
-Linked - [Catherine Kimani](https://www.linkedin.com/incatherine-kimani/)
+[LinkedIn](https://www.linkedin.com/in/catherine-kimani/)
+[GitHub](https://github.com/catherinekimani)
+[Twitter](https://twitter.com/ckimani882)
 
 [Go Back to the top](#mini-portfolio-project)
